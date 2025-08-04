@@ -1,13 +1,23 @@
+import { MapPin, Phone, Mail } from "lucide-react";
+
 export default function ContactForm() {
   return (
-    <section id="contact" className="py-16 px-4 md:px-12 w-full md:w-6xl bg-white">
-      <h2 className="text-[#0e1b18] text-3xl font-bold tracking-tight mb-12 text-center">
-        Contact Us
+    <section id="contact" className="py-16 px-4 md:px-12 w-full md:w-6xl mx-auto bg-white">
+      <h2 className="text-[#0e1b18] text-3xl font-bold tracking-tight mb-4 text-center">
+        Connect With Us to Learn, Support, or Collaborate
       </h2>
+      <p className="text-base text-[#4d9987] max-w-2xl mx-auto mb-12 text-center">
+        We welcome conversations that lead to purposeful change. Whether you're exploring ways to support our initiatives, collaborate on projects, or simply want to know more about what we do — your message is important to us. Our team is always open to dialogue and ideas that align with our shared vision for a more compassionate, educated, and sustainable society.
+      </p>
 
       <div className="flex flex-col md:flex-row gap-10 w-full">
         {/* Contact Form */}
         <form className="w-full md:w-2/3 space-y-6 bg-[#f8fcfb] border border-[#d0e7e2] rounded-2xl p-8 shadow-sm">
+          <h3 className="text-[#0e1b18] text-2xl font-bold tracking-tight">Send Us a Message</h3>
+          <p className="text-sm text-[#4d9987]">
+            Have a query, proposal, or idea you'd like to discuss? Share it with us by filling out the form below. We'll get back to you promptly.
+          </p>
+
           <div className="flex flex-col gap-2">
             <label htmlFor="name" className="text-sm font-semibold text-[#0e1b18]">
               Name
@@ -56,7 +66,7 @@ export default function ContactForm() {
         <div className="w-full md:w-1/3 flex flex-col justify-start gap-6 bg-[#f8fcfb] border border-[#d0e7e2] rounded-2xl p-8 shadow-sm">
           <div>
             <h4 className="text-[#0e1b18] font-semibold text-lg mb-1">Email</h4>
-            <p className="text-[#4d9987] text-sm">hello@yourdomain.com</p>
+            <p className="text-[#4d9987] text-sm">info@pranamifoundation.com</p>
           </div>
           <div>
             <h4 className="text-[#0e1b18] font-semibold text-lg mb-1">Phone</h4>

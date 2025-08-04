@@ -17,7 +17,6 @@ export default function Home() {
         <CoreValues />
         <Initiatives />
         <Volunteer />
-        <TestimonialsPage />
         <ContactForm />
         <Newsletter />
       </main>
