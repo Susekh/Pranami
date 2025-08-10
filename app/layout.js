@@ -49,6 +49,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <link rel="icon" href="/favicon.jpeg" sizes="any" />
       <body className="text-[#0e1b18] bg-white font-sans antialiased">
         {children}
       </body>

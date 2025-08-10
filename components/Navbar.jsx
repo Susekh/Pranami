@@ -1,5 +1,6 @@
 "use client";
 import { HeartHandshake, Menu } from "lucide-react";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function Navbar() {
@@ -70,10 +71,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-4 flex items-center justify-between">
         {/* Logo & Title */}
         <div className="flex items-center gap-3 text-[#0e1b18]">
-          <HeartHandshake size={26} className="text-[#15cfa4]" aria-hidden="true" />
-          <h1 className="text-lg font-bold tracking-tight">
-            Pranami Charity Foundation
-          </h1>
+          <Image height={100} width={100} className="w-16" alt="logo" src={"/logo.jpeg"} />
         </div>
 
         {/* Desktop Nav */}
