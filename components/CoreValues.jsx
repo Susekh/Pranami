@@ -11,7 +11,7 @@ export default function CoreValues() {
           Pranami is a charitable foundation dedicated to advancing human dignity through purposeful action in education, healthcare, philanthropy, and sustainability. With a belief in collective responsibility and compassionate service, we work to support underserved communities and create opportunities that lead to lasting impact.
         </p>
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="flex flex-col p-4 border border-[#d0e7e2] bg-[#f8fcfb] rounded-lg gap-3 text-center lg:text-left">
           <BookOpen className="text-[#0e1b18] mx-auto lg:mx-0" size={24} />
           <h2 className="text-[#0e1b18] text-base font-bold">Education</h2>

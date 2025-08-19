@@ -17,7 +17,7 @@ export const metadata = {
   authors: [{ name: "Pranami Charity Foundation", url: "https://yourdomain.com" }],
   creator: "Pranami Charity Foundation",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.jpeg",
   },
   metadataBase: new URL("https://yourdomain.com"),
   openGraph: {

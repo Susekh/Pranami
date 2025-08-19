@@ -1,33 +1,39 @@
 import Image from "next/image";
 
 export default function Initiatives() {
-  const initiatives = [
-    {
-      title: "Education Support & Outreach",
-      desc: "We provide educational resources, scholarships, and learning opportunities to students from underprivileged backgrounds, helping them build brighter futures.",
-      img: "/img/education.jpg",
-    },
-    {
-      title: "Healthcare Initiatives",
-      desc: "Through health camps, medical assistance, and wellness outreach, we strive to make primary healthcare accessible and affordable for vulnerable communities.",
-      img: "/img/healthcare.jpg",
-    },
-    {
-      title: "Philanthropic Projects",
-      desc: "Our team undertakes a range of charitable activities—from food distribution and shelter support to community upliftment efforts.",
-      img: "/img/philanthropy.jpg",
-    },
-    {
-      title: "Sustainability & Environment",
-      desc: "We promote environmentally responsible practices through tree plantation drives, clean energy advocacy, and local eco-awareness campaigns.",
-      img: "/img/sustainability.jpg",
-    },
-    {
-      title: "Partnership & Community Engagement",
-      desc: "Working hand-in-hand with grassroots organizations, volunteers, and civic bodies, we strengthen our impact through collaboration and trust.",
-      img: "/img/partnership.jpg",
-    },
-  ];
+ const initiatives = [
+  {
+    title: "Education Support & Outreach",
+    desc: "We provide educational resources, scholarships, and learning opportunities to students from underprivileged backgrounds, helping them build brighter futures.",
+    img: "/img/education.jpg",
+  },
+  {
+    title: "Healthcare Initiatives",
+    desc: "Through health camps, medical assistance, and wellness outreach, we strive to make primary healthcare accessible and affordable for vulnerable communities.",
+    img: "/img/healthcare.jpg",
+  },
+  {
+    title: "Philanthropic Projects",
+    desc: "Our team undertakes a range of charitable activities—from food distribution and shelter support to community upliftment efforts.",
+    img: "/img/philanthropy.jpg",
+  },
+  {
+    title: "Sustainability & Environment",
+    desc: "We promote environmentally responsible practices through tree plantation drives, clean energy advocacy, and local eco-awareness campaigns.",
+    img: "/img/sustainability.jpg",
+  },
+  {
+    title: "Partnership & Community Engagement",
+    desc: "Working hand-in-hand with grassroots organizations, volunteers, and civic bodies, we strengthen our impact through collaboration and trust.",
+    img: "/img/partnership.jpg",
+  },
+  {
+    title: "Disaster Relief & Emergency Aid",
+    desc: "We respond swiftly to natural disasters and emergencies, providing essential supplies, shelter, and rehabilitation support to affected communities.",
+    img: "/img/disaster-relief.jpg",
+  },
+];
+
 
   return (
     <section id="initiatives" className="max-w-6xl mx-auto px-4 py-12">
